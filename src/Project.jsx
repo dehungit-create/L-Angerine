@@ -33,12 +33,12 @@ function Project() {
         </div>
 
 
-        <h2 className="mt-24 mb-16 text-4xl font-bold text-center text-orange-600">
+        <h2 className="p-8 text-xl font-bold text-center text-orange-600">
           Câu Chuyện Dự Án
         </h2>
 
        
-        <b className="text-xs md:text-2xl text-center block p-6 border-t-2 border-dashed ">
+        <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed ">
           Hành trình khởi nghiệp xanh từ những giá trị tưởng chừng bị lãng quên
         </b>
         <div className="grid md:grid-cols-2 gap-14 mb-24 items-center">
@@ -48,7 +48,7 @@ function Project() {
             className="rounded-3xl shadow-xl object-cover max-h-100 w-full"
           />
 
-          <div className="space-y-4 text-justify text-xs md:text-lg">
+          <div className="space-y-4 text-justify text-s md:text-lg">
             
             <p className="indent-8">Theo thống kê toàn cầu, rác thải từ vỏ và hạt trái cây chiếm từ 15% đến 60% tổng lượng rác thải của ngành công nghiệp thực phẩm. Hàng triệu tấn phế phẩm hữu cơ bị bỏ đi mỗi năm không chỉ gây lãng phí tài nguyên mà còn tạo áp lực lớn lên môi trường. Trong đó có vỏ quýt và hạt quýt. Nhưng, những phần mà chúng ta tưởng như vô giá trị – lại ẩn chứa tiềm năng tự nhiên quý báu về hương liệu, tinh dầu và dưỡng chất tốt cho sức khỏe con người.</p>
               <p className="indent-8">Từ thực tế đó, L’Angerine ra đời với sứ mệnh khởi nghiệp xanh – sáng tạo và bền vững, hướng tới tận dụng toàn diện giá trị từ trong ra ngoài của quýt vàng Xứ Lạng, biến từng phần nhỏ nhất thành sản phẩm thân thiện với môi trường, mang lại lợi ích kép cho cộng đồng và sức khỏe con người.</p>
@@ -58,12 +58,12 @@ function Project() {
         </div>
 
         {/* ================= BLOCK 2 ================= */}
-        <b className="text-xs md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed">
           Đổi mới – Sáng tạo – Phát triển bền vững
         </b>
         <div className="grid md:grid-cols-2 gap-14 mb-24 items-center">
 
-          <div className="space-y-4 text-xs md:text-lg text-justify">
+          <div className="space-y-4 text-s md:text-lg text-justify">
 
             <p className="indent-8">Dự án L’Angerine tập trung phát triển đa dạng các dòng sản phẩm tự nhiên từ quýt như: Tinh dầu vỏ quýt, trà thảo mộc, túi thơm, nước hoa tự nhiên, siro quýt, mứt trần bì, bột vỏ quýt hữu cơ,... Mỗi sản phẩm là sự kết hợp hài hòa giữa tri thức khoa học hiện đại và nguồn nguyên liệu bản địa, thể hiện tinh thần dám nghĩ – dám làm – dám đổi mới của tuổi trẻ Xứ Lạng.</p>
             <p className="indent-8">Nhóm dự án tin rằng, một sản phẩm tốt không chỉ đáp ứng nhu cầu của thị trường, mà còn phải mang trong mình câu chuyện về trách nhiệm xã hội và niềm tự hào quê hương.</p>
@@ -80,7 +80,7 @@ function Project() {
         </div>
 
         {/* ================= BLOCK 3 ================= */}
-        <b className="text-xs md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed">
           Gắn kết văn hóa – Bảo tồn giá trị truyền thống
         </b>
         <div className="grid md:grid-cols-2 gap-14 mb-24 items-center">
@@ -90,7 +90,7 @@ function Project() {
             className="rounded-3xl shadow-xl object-cover max-h-100 w-full"
           />
 
-          <div className="space-y-4 text-xs md:text-lg text-justify">
+          <div className="space-y-4 text-s md:text-lg text-justify">
 
             <p className="indent-8">Trong chặng đường phát triển, L’Angerine không chỉ là dự án kinh tế mà còn là cầu nối văn hóa. </p>
               <p className="indent-8">Trong tương lai, nhóm định hướng kết hợp cùng các sáng kiến giáo dục và bảo tồn văn hóa địa phương, ví dụ như Website học tiếng Tày – hoctiengtay.edu.vn, góp phần lưu giữ tiếng nói, văn hóa, phong tục, tập quán, bản sắc dân tộc Tày tại huyện Bắc Sơn cũ nói riêng – nơi nhóm lựa chọn nguồn nguyên liệu, và toàn tỉnh nói chung.</p>
@@ -100,7 +100,7 @@ function Project() {
         </div>
 
         {/* ================= BLOCK 4 ================= */}
-        <b className="text-xs md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed">
           Thế hệ trẻ: Học tập – Trải nghiệm – Trách nhiệm và khát vọng
         </b>
         <div className="grid md:grid-cols-2 gap-14 mb-24 items-center">
@@ -110,7 +110,7 @@ function Project() {
             className="rounded-3xl shadow-xl object-cover w-full"
           />
 
-          <div className="space-y-4 text-xs md:text-lg text-justify">
+          <div className="space-y-4 text-s md:text-lg text-justify">
 
            <p className="indent-8">L’Angerine hướng đến xây dựng chuỗi giá trị nông nghiệp tuần hoàn, giúp gia tăng thu nhập cho người nông dân, đồng thời nâng cao vị thế nông sản đặc trưng của Lạng Sơn – góp phần lan tỏa phát triển mô hình khởi nghiệp xanh mà ngành giáo dục Việt Nam đang tích cực khuyến khích. Nhóm dự án là tập hợp của những người trẻ – những chủ nhân tương lai của đất nước, mang trong mình tinh thần học hỏi, sáng tạo và ý thức sâu sắc về sứ mệnh bảo vệ môi trường, phát triển quê hương. Nhóm hiểu rằng khởi nghiệp không chỉ là tạo ra giá trị kinh tế, mà còn là trách nhiệm xã hội – là góp phần xây dựng tương lai xanh, sạch và nhân văn hơn. </p>
               <p className="indent-8">L’Angerine không chỉ là chuỗi sản phẩm, mà còn là hành trình học tập trải nghiệm – nơi mỗi thành viên được rèn luyện kỹ năng mềm, tư duy sáng tạo và tinh thần trách nhiệm với cộng đồng và môi trường.</p>
@@ -121,7 +121,7 @@ function Project() {
         </div>
 
         {/* ================= FINAL ================= */}
-        <div className="grid md:grid-cols-2 gap-14 items-center space-y-4 text-lg text-justify">
+        <div className="grid md:grid-cols-2 gap-14 items-center space-y-4 text-s md:text-xl text-justify">
 
           <img
             src={img5}

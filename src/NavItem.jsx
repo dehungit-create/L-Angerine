@@ -52,11 +52,11 @@ function NavItiem() {
     <div
       ref={sectionRef}
       className="
-        p-12
+        md:p-12
         grid grid-cols-1
         md:grid-cols-2
         lg:grid-cols-3
-        gap-24
+        gap-8
         bg-[#FFE9D2]
       "
     >
@@ -74,7 +74,7 @@ function NavItiem() {
           {/* Overlay */}
           <div className="
             absolute inset-0
-            bg-gradient-to-t
+            bg-linear-to-t
             from-black/70
             via-black/30
             to-transparent

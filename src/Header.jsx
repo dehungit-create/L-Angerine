@@ -33,7 +33,7 @@ function Header() {
   }, [location])
 
   return (
-    <header className="w-full h-20 px-6 flex items-center fixed top-0 z-50 bg-[#FFE9D2] shadow-md">
+    <header className="w-full h-15 px-6 flex items-center fixed top-0 z-50 bg-[#FFE9D2] shadow-md">
 
       {/* LOGO */}
       <div className="flex items-center gap-2">

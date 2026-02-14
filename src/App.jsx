@@ -17,7 +17,7 @@ function App() {
 
       <ScrollToTop />
 
-      <main className="mt-20 min-h-screen">
+      <main className="mt-15 min-h-screen">
         <Routes>
 
           <Route

@@ -71,7 +71,7 @@ function Team() {
             "
           >
             {/* IMAGE */}
-            <div className="relative w-full h-64 overflow-hidden">
+            <div className="relative w-full h-100 md:h-64 overflow-hidden">
               <img
                 src={mem.img}
                 alt={mem.name}
