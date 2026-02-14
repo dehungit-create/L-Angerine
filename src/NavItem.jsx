@@ -1,0 +1,111 @@
+import { useEffect, useRef, useState } from "react"
+
+import navImg1 from "./assets/imgs/NavItems/Logo.jpg"
+import navImg2 from "./assets/imgs/NavItems/Gian hàng.png"
+import navImg3 from "./assets/imgs/NavItems/TU_00004.jpg"
+
+const navItems = [
+  {
+    id: 1,
+    title: "Giới thiệu dự án",
+    desc: "Dự án khởi nghiệp xanh vì sức khỏe và môi trường",
+    img: navImg1
+  },
+  {
+    id: 2,
+    title: "Các sản phẩm của chúng tôi",
+    desc: "Chuỗi sản phẩm đa dạng, độc đáo",
+    img: navImg2
+  },
+  {
+    id: 3,
+    title: "Về chúng tôi",
+    desc: "Nhóm sinh viên thực hiện & giảng viên hướng dẫn",
+    img: navImg3
+  }
+]
+
+function NavItiem() {
+
+  const sectionRef = useRef(null)
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true)
+          observer.unobserve(entry.target)
+        }
+      },
+      { threshold: 0.3 }
+    )
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current)
+    }
+
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <div
+      ref={sectionRef}
+      className="
+        p-12
+        grid grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        gap-24
+        bg-[#FFE9D2]
+      "
+    >
+      {navItems.map((item, index) => (
+        <div
+          key={item.id}
+          style={{ animationDelay: `${index * 0.2}s` }}
+          className={`
+            relative rounded-2xl overflow-hidden
+            opacity-0
+            ${visible ? "fade-up" : ""}
+          `}
+        >
+
+          {/* Overlay */}
+          <div className="
+            absolute inset-0
+            bg-gradient-to-t
+            from-black/70
+            via-black/30
+            to-transparent
+          " />
+
+          {/* Image */}
+          <img
+            src={item.img}
+            alt={item.title}
+            className="w-full h-60 object-cover"
+          />
+
+          {/* Badge */}
+          <div className="absolute top-3 left-3 bg-white/30 backdrop-blur-md text-white text-sm font-semibold px-3 py-1 rounded-full">
+            0{item.id}
+          </div>
+
+          {/* Text */}
+          <div className="absolute bottom-4 left-4 right-4 text-white">
+            <h3 className="text-xl font-bold">
+              {item.title}
+            </h3>
+            <p className="text-sm mt-1 text-white/90">
+              {item.desc}
+            </p>
+          </div>
+
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export default NavItiem
