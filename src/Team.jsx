@@ -37,7 +37,7 @@ const members = [
 
 function Team() {
   return (
-    <section className="w-full bg-[#FFF7ED] py-8 px-6 mt-20">
+    <section className="w-full bg-[#FFF7ED] py-8 px-6 ">
       {/* TITLE */}
       <div className="text-center mb-12">
         <h2 className="text-xl md:text-4xl font-bold text-[#8B5E34]">

@@ -16,7 +16,7 @@ function Project() {
   return (
     <div className="bg-linear-to-b from-orange-50 via-white to-orange-50">
 
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 ">
 
         {/* ================= HEADER ================= */}
         <div className="flex flex-col md:flex-row gap-16 items-center">

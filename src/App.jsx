@@ -19,7 +19,7 @@ function App() {
 
       <ScrollToTop />
 
-      <main className="mt-15 min-h-screen">
+      <main className=" min-h-screen">
         <Routes>
 
           <Route

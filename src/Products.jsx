@@ -210,7 +210,7 @@ function Products() {
   return (
     <>
       {/* PRODUCT CARD */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8 ">
               {products.map((item) => (
         <div
           key={item.id}
