@@ -6,6 +6,8 @@ import Products from "./Products"
 import Team from "./Team"
 import Footer from "./Footer"
 import Project from "./Project"
+import Home from "./Home"
+import NavItem from "./NavItem"
 
 import ScrollToTop from "./ScrollToTop"
 import PageWrapper from "./PageWrapper"
@@ -24,7 +26,7 @@ function App() {
             path="/"
             element={
               <PageWrapper>
-                <HomePage />
+                <Home />
               </PageWrapper>
             }
           />

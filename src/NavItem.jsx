@@ -25,7 +25,7 @@ const navItems = [
   }
 ]
 
-function NavItiem() {
+function NavItem() {
 
   const sectionRef = useRef(null)
   const [visible, setVisible] = useState(false)
@@ -108,4 +108,4 @@ function NavItiem() {
   )
 }
 
-export default NavItiem
+export default NavItem

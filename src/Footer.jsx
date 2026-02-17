@@ -24,7 +24,7 @@ function Footer() {
 
         {/* CONTACT */}
         <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold mb-4">
+          <h3 className="text-2xl font-semibold mb-4">
             Liên hệ
           </h3>
 
@@ -35,12 +35,12 @@ function Footer() {
         </div>
 
         {/* SOCIAL */}
-        <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold mb-4">
+        <div className="text-center">
+          <h3 className="text-2xl font-semibold mb-4">
             Kết nối với chúng tôi
           </h3>
 
-          <div className="flex justify-center md:justify-start gap-4">
+          <div className="flex justify-center md:justify-center gap-4">
 
             <a
               href="https://facebook.com/langerine.ls"

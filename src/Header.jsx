@@ -36,13 +36,21 @@ function Header() {
     <header className="w-full h-15 px-6 flex items-center fixed top-0 z-50 bg-[#FFE9D2] shadow-md">
 
       {/* LOGO */}
-      <div className="flex items-center gap-2">
-        <img src={logo} className="w-12 h-12" />
-        <img
-          src={logoText}
-          className="h-12 hidden lg:block"
-        />
-      </div>
+{/* LEFT LOGO (desktop) */}
+<div className="hidden lg:flex items-center gap-2">
+  <img src={logo} className="w-12 h-12" />
+  <img src={logoText} className="h-12" />
+</div>
+
+{/* CENTER LOGOTEXT (mobile + tablet) */}
+<div className="absolute left-1/2 -translate-x-1/2 lg:hidden">
+  <img src={logoText} className="h-10 md:h-11" />
+</div>
+
+{/* LEFT LOGO ICON (mobile + tablet) */}
+<div className="flex lg:hidden items-center">
+  <img src={logo} className="w-11 h-11" />
+</div>
 
       {/* DESKTOP NAV */}
       <ul

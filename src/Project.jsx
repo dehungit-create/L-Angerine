@@ -6,6 +6,11 @@ import img3 from "./assets/imgs/project/Chuỗi sản phẩm.jpg"
 import img4 from "./assets/imgs/project/Gian hàng 5.jpg"
 import img5 from "./assets/imgs/project/TU_00004.jpg"
 
+import SlideProject from "./SlideProject"
+
+
+
+
 function Project() {
 
   return (
@@ -133,7 +138,8 @@ function Project() {
         </div>
 
       </div>
-
+      <h2 className="border-t-2 border-dashed text-center text-xl font-black p-4">Một số hình ảnh thực tế</h2>
+    <SlideProject/>
     </div>
   )
 

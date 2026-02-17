@@ -2,6 +2,7 @@ import mem1 from "./assets/imgs/teams/gvhd.jpg"
 import hoai from "./assets/imgs/teams/hoai.jpg"
 import xuan from "./assets/imgs/teams/xuan.jpg"
 import ha from "./assets/imgs/teams/tth.jpg"
+import SlideTeam from "./SlideTeam"
 
 const members = [
   {
@@ -150,8 +151,9 @@ function Team() {
           </p>
         </div>
       </div>
-
-
+      <h2 className="border-t-2 border-dashed text-center text-xl font-black p-4">Một số hình ảnh của nhóm</h2>
+      
+      <SlideTeam/>
     </section>
   )
 }
