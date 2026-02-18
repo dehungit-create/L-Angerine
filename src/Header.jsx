@@ -20,10 +20,11 @@ function Header() {
       {/* ================= LOGO ================= */}
 
       {/* LEFT LOGO (DESKTOP) */}
-      <div className="hidden lg:flex items-center gap-2">
+      
+      <NavLink to="/" className="hidden lg:flex items-center gap-2">
         <img src={logo} className="w-12 h-12" />
         <img src={logoText} className="h-12" />
-      </div>
+      </NavLink>
 
       {/* CENTER LOGOTEXT (MOBILE + TABLET) */}
       <div className="absolute inset-0 flex justify-center items-center lg:hidden pointer-events-none">
@@ -31,9 +32,9 @@ function Header() {
       </div>
 
       {/* LEFT LOGO ICON (MOBILE + TABLET) */}
-      <div className="flex lg:hidden items-center">
+      <NavLink to="/" className="flex lg:hidden items-center">
         <img src={logo} className="w-11 h-11" />
-      </div>
+      </NavLink>
 
       {/* ================= DESKTOP NAV ================= */}
 

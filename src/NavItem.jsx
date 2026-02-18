@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react"
+import { NavLink } from "react-router-dom"
 
 import navImg1 from "./assets/imgs/NavItems/Logo.jpg"
 import navImg2 from "./assets/imgs/NavItems/Gian hàng.png"
@@ -9,18 +10,21 @@ const navItems = [
     id: 1,
     title: "Giới thiệu dự án",
     desc: "Dự án khởi nghiệp xanh vì sức khỏe và môi trường",
+    nav: "/project",
     img: navImg1
   },
   {
     id: 2,
     title: "Các sản phẩm của chúng tôi",
     desc: "Chuỗi sản phẩm đa dạng, độc đáo",
+    nav: "/products",
     img: navImg2
   },
   {
     id: 3,
     title: "Về chúng tôi",
     desc: "Nhóm sinh viên thực hiện & giảng viên hướng dẫn",
+    nav: "/team",
     img: navImg3
   }
 ]
@@ -31,6 +35,13 @@ function NavItem() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
+
+    // MOBILE -> không animation
+    if (window.innerWidth < 768) {
+      setVisible(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -46,6 +57,7 @@ function NavItem() {
     }
 
     return () => observer.disconnect()
+
   }, [])
 
   return (
@@ -60,14 +72,20 @@ function NavItem() {
         bg-[#FFE9D2]
       "
     >
+
       {navItems.map((item, index) => (
-        <div
+
+        <NavLink
           key={item.id}
+          to={item.nav}
           style={{ animationDelay: `${index * 0.2}s` }}
           className={`
             relative rounded-2xl overflow-hidden
-            opacity-0
-            ${visible ? "fade-up" : ""}
+            cursor-pointer
+
+            opacity-100
+
+            ${visible ? "opacity-100 md:fade-up md:opacity-100" : ""}
           `}
         >
 
@@ -102,8 +120,10 @@ function NavItem() {
             </p>
           </div>
 
-        </div>
+        </NavLink>
+
       ))}
+
     </div>
   )
 }
