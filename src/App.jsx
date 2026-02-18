@@ -1,13 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 
 import Header from "./Header"
-import HomePage from "./HomePage"
 import Products from "./Products"
 import Team from "./Team"
 import Footer from "./Footer"
 import Project from "./Project"
 import Home from "./Home"
-import NavItem from "./NavItem"
+
 
 import ScrollToTop from "./ScrollToTop"
 import PageWrapper from "./PageWrapper"
@@ -19,7 +18,7 @@ function App() {
 
       <ScrollToTop />
 
-      <main className=" min-h-screen">
+      <main className="min-h-screen pt-15">
         <Routes>
 
           <Route

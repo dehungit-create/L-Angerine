@@ -14,12 +14,12 @@ import SlideProject from "./SlideProject"
 function Project() {
 
   return (
-    <div className="bg-linear-to-b from-orange-50 via-white to-orange-50">
+    <div className="bg-linear-to-b from-orange-50 via-white to-orange-50 ">
 
       <div className="max-w-7xl mx-auto px-6 ">
 
         {/* ================= HEADER ================= */}
-        <div className="flex flex-col md:flex-row gap-16 items-center">
+        <div className="flex flex-col md:flex-row gap-16 items-center mb-8">
 
           <div className="flex flex-col items-center text-center md:text-left gap-6">
 
@@ -38,9 +38,7 @@ function Project() {
         </div>
 
 
-        <h2 className="p-8 text-xl font-bold text-center text-orange-600">
-          Câu Chuyện Dự Án
-        </h2>
+      
 
        
         <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed ">
@@ -138,7 +136,7 @@ function Project() {
         </div>
 
       </div>
-      <h2 className="border-t-2 border-dashed text-center text-xl font-black p-4">Một số hình ảnh thực tế</h2>
+      <h2 className="border-t-2 border-dashed text-center text-xl font-black p-4 mt-8">Một số hình ảnh thực tế</h2>
     <SlideProject/>
     </div>
   )

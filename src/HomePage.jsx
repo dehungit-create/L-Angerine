@@ -8,7 +8,7 @@ import img4 from "./assets/imgs/Slides/img4.jpg";
 import img5 from "./assets/imgs/Slides/Gian hàng 5.jpg";
 import img6 from "./assets/imgs/Slides/Gian hàng 6.jpg";
 import NavItiem from "./NavItem";
-
+import SlideHome from "./SlideHome";
 const slides = [img1, img2, img3, img4, img5, img6, bgrImg];
 
 function HomePage() {
@@ -39,6 +39,7 @@ function HomePage() {
 
   return (
     <section className="overflow-hidden bg-[#FFE9D2]">
+      <SlideHome/>
       <div className="relative w-full pt-[50%] mb-8 ">
 
         {/* SLIDE TRACK */}

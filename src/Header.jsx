@@ -5,7 +5,7 @@ import logo from "./assets/imgs/Logo L'Angerine.png"
 import logoText from "./assets/imgs/Langerine_text.png"
 
 const navItems = [
-  { name: "Trang Chủ", path: "/" },
+  { name: "Trang chủ", path: "/" },
   { name: "Giới thiệu", path: "/project" },
   { name: "Sản phẩm", path: "/products" },
   { name: "Về chúng tôi", path: "/team" },
@@ -15,7 +15,7 @@ function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="w-full h-16 px-6 flex items-center fixed top-0 z-50 bg-[#FFE9D2] shadow-md relative">
+    <header className="w-full h-16 px-6 flex items-center fixed top-0 z-50 bg-[#FFE9D2] shadow-md">
 
       {/* ================= LOGO ================= */}
 

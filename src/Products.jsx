@@ -17,6 +17,7 @@ import tuithom from "./assets/imgs/Products/Túi thơm.jpg"
 import tinhdau from "./assets/imgs/Products/Tinh dầu lọ.jpg"
 import xaphong from "./assets/imgs/Products/Xà phòng quýt nghệ.jpg"
 import keodeo from "./assets/imgs/Products/Kẹo dẻo.jpg"
+import tdtreo from "./assets/imgs/Products/Tinh dầu treo.jpg"
 
 
 
@@ -29,7 +30,8 @@ const products = [
     id: 1,
     name: "Trà phổ nhĩ",
     uses: "Hỗ trợ tiêu hóa, thanh lọc cơ thể",
-    price: "200.000đ",
+    cosst: "",
+    price: "250.000đ",
     img: traPhoNhi,
     des: [
       "Trà phổ nhĩ quýt là sự kết hợp tinh tế giữa trà phổ nhĩ cổ truyền và vỏ quýt khô tự nhiên, tạo nên một sản phẩm độc đáo và giàu giá trị dinh dưỡng.",
@@ -40,6 +42,7 @@ const products = [
     id: 2,
     name: "Trần bì (vỏ quýt sấy khô)",
     uses: "Hỗ trợ tiêu hóa, giảm triệu chứng đầy hơi, ho có đờm, và cải thiện tuần hoàn máu",
+    cosst: "",
     price: "30.000đ",
     img: tranbi,
     des: [
@@ -49,7 +52,8 @@ const products = [
   {
     id: 3,
     name: "Túi thơm vỏ quýt",
-    uses: "Công dụng: Khử mùi ẩm mốc, tạo hương thơm tự nhiên; Thư giãn tinh thần, giảm căng thẳng nhẹ; Xua đuổi côn trùng ; Trang trí xinh xắn, mang đậm nét truyền thống.",
+    uses: "Khử mùi ẩm mốc, tạo hương thơm tự nhiên; Thư giãn tinh thần, giảm căng thẳng nhẹ; Xua đuổi côn trùng ; Trang trí xinh xắn, mang đậm nét truyền thống.",
+    cosst: "",
     price: "40.000đ",
     img: tuithom,
     des: [
@@ -60,6 +64,7 @@ const products = [
     id: 4,
     name: "Mứt trần bì",
     uses: "Hỗ trợ chữa đầy bụng, khó tiêu, ợ hơi, ho có đờm, kém ăn, nôn mửa, tiêu chảy…",
+    cosst: "",
     price: "40.000đ",
     img: mutTranBi,
     des: [
@@ -71,6 +76,7 @@ const products = [
     id: 5,
     name: "Nước hoa quýt",
     uses: "Tạo mùi hương thanh mát, ngọt dịu, mang lại cảm giác thư giãn, dễ chịu",
+    cosst: "",
     price: "45.000đ",
     img: nuochoa,
     des: [
@@ -81,7 +87,8 @@ const products = [
     id: 6,
     name: "Tinh dầu vỏ quýt",
     uses: "Dùng trong spa, xông tinh dầu, sản xuất nước hoa, mỹ phẩm, hoặc chế biến thực phẩm.",
-    price: "40.000đ",
+    cosst: "",
+    price: "30.000đ",
     img: tinhdau,
     des: [
       "Tinh dầu quýt 100% tự nhiên, không hóa chất. Hương thơm tươi mát, dễ chịu, có tác dụng thư giãn tinh thần, giảm căng thẳng. Tinh dầu chứa nhiều hoạt chất limonene, flavonoid có tính kháng khuẩn, chống oxy hóa.",
@@ -91,6 +98,7 @@ const products = [
     id: 7,
     name: "Bột vỏ quýt",
     uses: "Dùng làm nguyên liệu trong pha trà, làm bánh, nấu ăn, ứng dụng trong làm đẹp (tẩy tế bào chết, mặt nạ), dùng trong y học dân gian (hỗ trợ tiêu hóa, giảm ho, giảm stress).",
+    cosst: "",
     price: "30.000đ",
     img: botTranBi,
     des: [
@@ -101,6 +109,7 @@ const products = [
     id: 8,
     name: "Hướng dương ướp vỏ quýt",
     uses: "Ăn vặt",
+    cosst: "",
     price: "15.000đ",
     img: huongduong,
     des: [
@@ -111,6 +120,7 @@ const products = [
     id: 9,
     name: "Nhang vỏ quýt",
     uses: "Thắp hương, đuổi muỗi",
+    cosst: "",
     price: "35.000đ",
     img: nhang,
     des: [
@@ -121,7 +131,8 @@ const products = [
   id: 10,
   name: "Xà phòng quýt nghệ",
   uses: "Sản phẩm giúp làm sạch, sáng da, giảm thâm nám, kháng khuẩn nhẹ và mang lại mùi hương tươi mát đặc trưng",
-  price: "35.000đ",
+  cosst: "",
+  price: "29.000đ",
   img: xaphong,
   des: [
     "Xà phòng quýt nghệ là sản phẩm chăm sóc da tự nhiên được làm từ tinh dầu vỏ quýt vàng Bắc Sơn, bột nghệ nguyên chất và các loại dầu thực vật như dầu dừa, dầu ô liu, dầu cám gạo. Sản phẩm giúp làm sạch, sáng da, giảm thâm nám, kháng khuẩn nhẹ và mang lại mùi hương tươi mát đặc trưng. Thành phần hoàn toàn tự nhiên, không chứa chất tạo bọt công nghiệp, thân thiện với môi trường và phù hợp xu hướng tiêu dùng xanh – sạch.",
@@ -131,6 +142,7 @@ const products = [
   id: 11,
   name: "Gia vị ướp vỏ quýt mác mật",
   uses: "Dùng làm gia vị",
+  cosst: "",
   price: "Liên hệ",
   img: giavi,
   des: [
@@ -141,6 +153,7 @@ const products = [
   id: 12,
   name: "Bánh trung thu nhân quýt",
   uses: "Đồ ăn vặt",
+  cosst: "",
   price: "Liên hệ",
   img: banhTT,
   des: [
@@ -153,6 +166,7 @@ const products = [
   id: 13,
   name: "Kẹo dẻo quýt",
   uses: "Đồ ăn vặt",
+  cosst: "",
   price: "15.000đ",
   img: quytSayDeo,
   des: [
@@ -163,6 +177,7 @@ const products = [
   id: 14,
   name: "Múi quýt sấy dẻo",
   uses: "Đồ ăn vặt",
+  cosst: "",
   price: "15.000đ",
   img: keodeo,
   des: [
@@ -173,6 +188,7 @@ const products = [
   id: 15,
   name: "Siro quýt vàng Xứ Lạng",
   uses: "Bổ sung vitamin C, tăng sức đề kháng, làm đẹp da",
+  cosst: "",
   price: "35.000đ",
   img: siroQuyt,
   des: [
@@ -182,8 +198,9 @@ const products = [
 {
   id: 16,
   name: "Hạt quýt sấy",
-  uses: "Dùng tron y học, chiết xuất tinh dầu",
-  price: "20.000đ",
+  uses: "Dùng trong y học, chiết xuất tinh dầu",
+  cosst: "",
+  price: "15.000đ",
   img: hatQuytSay,
   des: [
     "Hạt quýt sau khi sấy khô giữ nguyên dược tính. Có chứa tinh dầu, flavonoid và hợp chất tự nhiên có lợi cho sức khỏe. Bảo quản dễ dàng, thời gian sử dụng lâu.",
@@ -194,10 +211,22 @@ const products = [
   id: 17,
   name: "Trà quýt vàng mix vị",
   uses: "Trà giúp giảm cholesterol xấu, bảo vệ tim mạch, giảm cân hiệu quả và ngăn ngừa lão hóa da",
-  price: "90.000đ",
+  cosst: "",
+  price: "80.000đ",
   img: traQuytMix,
   des: [
     "Trà quýt kết hợp cùng các loại thảo dược có hương vị thơm ngon và bổ dưỡng cho sức khỏe. Trà giúp giảm cholesterol xấu, bảo vệ tim mạch, giảm cân hiệu quả và ngăn ngừa lão hóa da. Có hơn 55 loại flavonoid, 170 phytonutrients các loại trong vỏ quýt. Chứa các loại khoáng chất: Đồng, Canxi, Magie, photpho, kali, selen, kẽm. Vitamin A, vitamin C, thiamin, riboflavin, niacin, folate, vitamin B5 và vitamin B6.",
+  ]
+},
+{
+  id: 18,
+  name: "Tinh dầu quýt (Loại treo)",
+  uses: "Tạo hương thơm, giúp giảm stress",
+  cosst: "",
+  price: "40.000đ",
+  img: tdtreo,
+  des: [
+    "Tinh dầu quýt 100% tự nhiên, không hóa chất. Hương thơm tươi mát, dễ chịu, có tác dụng thư giãn tinh thần, giảm căng thẳng. Tinh dầu chứa nhiều hoạt chất limonene, flavonoid có tính kháng khuẩn, chống oxy hóa.",
   ]
 },
 
@@ -314,10 +343,12 @@ function Products() {
             <h2 className="text-xl md:text-2xl font-bold">
               {selectedProduct.name}
             </h2>
+            <div>
 
             <p className="text-orange-600 font-semibold">
               Giá: {selectedProduct.price}
             </p>
+            </div>
 
             <p>
               <b>Công dụng:</b> {selectedProduct.uses}
