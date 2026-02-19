@@ -23,6 +23,15 @@ import slide21 from "./assets/imgs/VeChungToi/IMG_20260202_165329.jpg"
 import slide22 from "./assets/imgs/VeChungToi/IMG_20260202_165335.jpg"
 import slide23 from "./assets/imgs/VeChungToi/IMG_20260202_165341.jpg"
 
+import slide24 from "./assets/imgs/VeChungToi/themanh1.jpg"
+import slide25 from "./assets/imgs/VeChungToi/themanh2.jpg"
+import slide26 from "./assets/imgs/VeChungToi/themanh3.jpg"
+import slide27 from "./assets/imgs/VeChungToi/themanh4.jpg"
+import slide28 from "./assets/imgs/VeChungToi/themanh5.jpg"
+import slide29 from "./assets/imgs/VeChungToi/themanh6.jpg"
+
+
+
 const slides = [
   slide1,
 slide2,
@@ -46,7 +55,12 @@ slide19,
 slide20,
 slide21,
 slide22,
-slide23
+slide23,
+slide24,
+slide25,
+slide26,
+slide27,
+slide28,slide29
 ]
 
 function SlideTeam() {
