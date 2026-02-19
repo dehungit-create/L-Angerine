@@ -35,7 +35,45 @@ function Project() {
           </div>
         </div>
 
-        <b className="text-lg md:text-2xl text-center block p-6 border-t-2 border-dashed ">
+
+        <b className="mt-8 text-s md:text-2xl text-center block p-6 border-t-2 border-dashed text-orange-600">
+          Ý NGHĨA LOGO & TÊN THƯƠNG HIỆU
+        </b>
+        <div className="flex flex-col mb-8 items-center">
+          <img
+            src={logonotext}
+            className="rounded-3xl object-center object-cover w-40 md:h-80 md:w-80"
+          />
+          <div className="space-y-4 text-justify text-s md:text-lg">
+            <p className="indent-8">Logo của dự án <b><i>L’Angerine – Tinh hoa Quýt Xứ Lạng</i></b> được xây dựng dựa trên sự giao thoa giữa thiên nhiên, văn hóa và bản sắc địa phương. Hình ảnh Thung lũng Bắc Sơn – vùng đất nổi tiếng với những dãy núi uốn lượn và cánh đồng trù phú – được cách điệu trong hình dáng một quả quýt căng tròn. Đây vừa là biểu tượng trực quan cho sản phẩm/nguyên liệu chủ lực của dự án, vừa thể hiện mối liên hệ chặt chẽ giữa thiên nhiên và nguồn gốc nguyên liệu đặc trưng của Lạng Sơn.</p>
+          <figure className="flex flex-col items-center">
+            <img
+              src={phacthao}
+              className="rounded-3xl object-cover w-full max-h-40 md:h-100 md:w-100"
+            />
+            <figcaption className="mt-3 text-sm text-gray-600">
+             <i>Ảnh phác thảo logo</i> 
+            </figcaption>
+          </figure>
+
+              <p className="indent-8">Bên trong quả quýt, hình ảnh lá cờ đỏ sao vàng được lồng ghép tinh tế, khẳng định rõ ràng xuất xứ Việt Nam và khơi gợi niềm tự hào dân tộc. Sự kết hợp này không chỉ cho thấy đây là sản phẩm đặc sản địa phương mà còn là đại diện cho mong muốn tinh hoa nông sản Việt vươn ra thị trường quốc tế.</p>
+          </div>
+        </div>
+
+        <div className="mb-8 items-center">
+          <img
+            src={textlogo}
+            className="rounded-3xl object-cover max-h-100 w-full"
+          />
+          <div className="space-y-4 text-justify text-s md:text-lg">
+            <p className="indent-8">Tên thương hiệu <b><i>“L’Angerine”</i></b> (phiên âm: Lờ-ang-chơ-rin) cũng mang trong mình một thông điệp giàu ý nghĩa. Từ gốc “Tangerine” (tiếng Anh: quýt) được sáng tạo bằng cách thay chữ T bằng L, bốn ký tự đầu tiên ghép lại thành “Lang”, gợi nhắc đến Lạng Sơn – quê hương của sản phẩm. Đồng thời, dấu cách sở hữu L’ trong cách viết của thương hiệu cũng ẩn chứa thông điệp “thuộc về Lạng Sơn”, khẳng định xuất xứ, bản quyền và niềm tự hào vùng biên ải. Ngoài ra, chữ L cũng là viết tắt của từ “Love”, là một ẩn ý khác thể hiện tình yêu của các thành viên dự án đối với đặc sản nông sản địa phương.</p>
+
+            <p className="indent-8">Tổng thể logo vừa mang tính nhận diện thương hiệu hiện đại, vừa gắn kết với yếu tố địa phương và bản sắc Việt Nam, thể hiện định hướng của dự án: đưa Quýt vàng Bắc Sơn không chỉ là một nông sản, mà trở thành biểu tượng tinh hoa văn hóa và giá trị bền vững của Lạng Sơn trên bản đồ nông sản trong và ngoài nước.</p>
+            <p className="indent-8">Đặc biệt, ý tưởng thiết kế logo và ý nghĩa do <b><i></i>Trưởng nhóm dự án - Trần Thái Hà</b> đề xuất & thực hiện, thể hiện tinh thần sáng tạo, trách nhiệm và niềm tự hào của chính người dẫn dắt dự án. </p>
+          </div>
+        </div>
+
+        <b className="text-s md:text-2xl text-center block p-6 border-t-2 border-dashed text-orange-600">
           HÀNH TRÌNH KHỞI NGHIỆP XANH TỪ NHỮNG GIÁ TRỊ TƯỞNG CHỪNG BỊ LÃNG QUÊN
         </b>
         <div className="grid md:grid-cols-2 gap-8 mb-8 items-center">
@@ -51,7 +89,7 @@ function Project() {
         </div>
 
         {/* ================= BLOCK 2 ================= */}
-        <b className="text-lg md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        <b className="text-s md:text-2xl text-center block p-6 border-t-2 border-dashed text-orange-600">
           ĐỔI MỚI - SÁNG TẠO - PHÁT TRIỂN BỀN VỮNG
         </b>
         <div className="grid md:grid-cols-2 gap-8 mb-8 items-center">
@@ -69,7 +107,7 @@ function Project() {
         </div>
 
         {/* ================= BLOCK 3 ================= */}
-        <b className="text-lg md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        <b className="text-s md:text-2xl text-center block p-6 border-t-2 border-dashedv text-orange-600 border-dashed">
           GẮN KẾT VĂN HÓA – BẢO TỒN GIÁ TRỊ TRUYỀN THỐNG
         </b>
         <div className="grid md:grid-cols-2 gap-8 mb-8 items-center">
@@ -84,8 +122,8 @@ function Project() {
           </div>
         </div>
 
-        {/* ================= BLOCK 4 ================= */}
-        <b className="text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed">
+        {/* ================= BLOCK 4 ================= */} 
+        <b className="text-s md:text-2xl text-center block p-6 border-t-2 border-dashed text-orange-600">
           THẾ HỆ TRẺ: HỌC TẬP – TRẢI NGHIỆM – TRÁCH NHIỆM VÀ KHÁT VỌNG
         </b>
         <div className="grid md:grid-cols-2 gap-14 mb-8 items-center">
@@ -111,46 +149,10 @@ function Project() {
         </div>
 
 
-        <b className="mt-8 text-xl md:text-2xl text-center block p-6 border-t-2 border-dashed ">
-          THIẾT KẾ LOGO DỰ ÁN & TÊN THƯƠNG HIỆU
-        </b>
-        <div className="flex flex-col mb-8 items-center">
-          <img
-            src={logonotext}
-            className="rounded-3xl object-center object-cover w-40 md:h-80 md:w-80"
-          />
-          <div className="space-y-4 text-justify text-s md:text-lg">
-            <p className="indent-8">Logo của dự án L’Angerine – Tinh hoa Quýt Xứ Lạng được xây dựng dựa trên sự giao thoa giữa thiên nhiên, văn hóa và bản sắc địa phương. Hình ảnh Thung lũng Bắc Sơn – vùng đất nổi tiếng với những dãy núi uốn lượn và cánh đồng trù phú – được cách điệu trong hình dáng một quả quýt căng tròn. Đây vừa là biểu tượng trực quan cho sản phẩm/nguyên liệu chủ lực của dự án, vừa thể hiện mối liên hệ chặt chẽ giữa thiên nhiên và nguồn gốc nguyên liệu đặc trưng của Lạng Sơn.</p>
-          <figure className="flex flex-col items-center">
-            <img
-              src={phacthao}
-              className="rounded-3xl object-cover w-full max-h-40 md:h-100 md:w-100"
-            />
-            <figcaption className="mt-3 text-sm text-gray-600">
-             <i>Ảnh phác thảo logo</i> 
-            </figcaption>
-          </figure>
-
-              <p className="indent-8">Bên trong quả quýt, hình ảnh lá cờ đỏ sao vàng được lồng ghép tinh tế, khẳng định rõ ràng xuất xứ Việt Nam và khơi gợi niềm tự hào dân tộc. Sự kết hợp này không chỉ cho thấy đây là sản phẩm đặc sản địa phương mà còn là đại diện cho mong muốn tinh hoa nông sản Việt vươn ra thị trường quốc tế.</p>
-          </div>
-        </div>
-
-        <div className="mb-8 items-center">
-          <img
-            src={textlogo}
-            className="rounded-3xl object-cover max-h-100 w-full"
-          />
-          <div className="space-y-4 text-justify text-s md:text-lg">
-            <p className="indent-8">Tên thương hiệu “L’Angerine” (phiên âm: Lờ-ang-chơ-rin) cũng mang trong mình một thông điệp giàu ý nghĩa. Từ gốc “Tangerine” (tiếng Anh: quýt) được sáng tạo bằng cách thay chữ T bằng L, bốn ký tự đầu tiên ghép lại thành “Lang”, gợi nhắc đến Lạng Sơn – quê hương của sản phẩm. Đồng thời, dấu cách sở hữu L’ trong cách viết của thương hiệu cũng ẩn chứa thông điệp “thuộc về Lạng Sơn”, khẳng định xuất xứ, bản quyền và niềm tự hào vùng biên ải. Ngoài ra, chữ L cũng là viết tắt của từ “Love”, là một ẩn ý khác thể hiện tình yêu của các thành viên dự án đối với đặc sản nông sản địa phương.</p>
-
-            <p className="indent-8">Tổng thể logo vừa mang tính nhận diện thương hiệu hiện đại, vừa gắn kết với yếu tố địa phương và bản sắc Việt Nam, thể hiện định hướng của dự án: đưa Quýt vàng Bắc Sơn không chỉ là một nông sản, mà trở thành biểu tượng tinh hoa văn hóa và giá trị bền vững của Lạng Sơn trên bản đồ nông sản trong và ngoài nước.</p>
-            <p className="indent-8">Đặc biệt, ý tưởng thiết kế logo và ý nghĩa do Trưởng nhóm dự án - Trần Thái Hà đề xuất & thực hiện, thể hiện tinh thần sáng tạo, trách nhiệm và niềm tự hào của chính người dẫn dắt dự án. </p>
-          </div>
-        </div>
-
+        
 
       </div>
-      <h2 className="border-t-2 border-dashed text-center text-xl font-black p-4 mt-8">MỘT SỐ HÌNH ẢNH THỰC TẾ</h2>
+      <h2 className="border-t-2 border-dashed text-center text-s font-black p-4 mt-8 text-orange-600">MỘT SỐ HÌNH ẢNH THỰC TẾ</h2>
     <SlideProject/>
     </div>
   )
